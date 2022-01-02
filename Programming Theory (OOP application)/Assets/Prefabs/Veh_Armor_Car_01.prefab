@@ -94,9 +94,10 @@ GameObject:
   - component: {fileID: 6794905327142435387}
   - component: {fileID: 6794905327139485959}
   - component: {fileID: 6794905327140598359}
+  - component: {fileID: -1884354961559452625}
   m_Layer: 0
   m_Name: Veh_Armor_Car_01
-  m_TagString: Untagged
+  m_TagString: Vehicle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,6 +172,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-1884354961559452625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6794905327142509549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f201d4110079c344cb5637a0130c6611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 25
+  turnSpeed: 30
+  tankCannon: {fileID: 6794905327142407219}
+  yRotationBoundRight: 70
+  yRotationBoundLeft: 290
+  yMiddleBound: 180
 --- !u!1 &6794905327142523221
 GameObject:
   m_ObjectHideFlags: 0

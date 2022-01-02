@@ -427,9 +427,10 @@ GameObject:
   - component: {fileID: 4959846280140842894}
   - component: {fileID: 4968959255185937342}
   - component: {fileID: 7255152319706326544}
+  - component: {fileID: -8743476605816701528}
   m_Layer: 0
   m_Name: SM_Veh_Convertable_01
-  m_TagString: Untagged
+  m_TagString: Vehicle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -519,6 +520,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b2acca9e077a4804fbde3b00afc0d599, type: 3}
+--- !u!114 &-8743476605816701528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4947110406746279344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6087d53bdff46f34dbdac1ed6140ecd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  turnSpeed: 25
 --- !u!1 &4947190688906674174
 GameObject:
   m_ObjectHideFlags: 0

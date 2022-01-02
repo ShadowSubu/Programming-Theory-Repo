@@ -8,7 +8,7 @@ using UnityEditor;
 
 public class ButtonIndex : MonoBehaviour
 {
-    public static int index { get; private set; }
+    public static int index { get; private set; } // ENCAPSULATION
     public int m_input;
 
     private void Start()

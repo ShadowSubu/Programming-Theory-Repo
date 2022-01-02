@@ -260,9 +260,10 @@ GameObject:
   - component: {fileID: 9132515721799672135}
   - component: {fileID: 9132515721803096423}
   - component: {fileID: 9132515721802097575}
+  - component: {fileID: -2489887516235603315}
   m_Layer: 0
   m_Name: Fighter_Jet04
-  m_TagString: Untagged
+  m_TagString: Vehicle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339,6 +340,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-2489887516235603315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9132515721799908711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5add937b7e7d7d544bfe825f64f2dba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 60
+  turnSpeed: 15
 --- !u!1 &9132515721799908713
 GameObject:
   m_ObjectHideFlags: 0
